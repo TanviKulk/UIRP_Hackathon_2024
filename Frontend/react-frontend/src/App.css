@@ -1,0 +1,52 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-image: url('background_img.jpg');
+  background-size: cover;
+  background-position: center;
+  transition: background-color 0.5s ease;
+}
+
+.header {
+  padding: 10px 20px;
+  color: white;
+  background-color: #7cd157;
+  text-align: center;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.dropzone {
+  border: 2px dashed #6ab04c;
+  padding: 25px;
+  width: 80%;
+  max-width: 400px;
+  background-color: transparent;
+  cursor: pointer;
+  text-align: center;
+}
+
+.dropzone p {
+  color: white;
+}
+
+.plain-bg {
+  background-color: #5ea041;
+}
+
+.App.bg-color-change {
+  background-image: none;
+  background-color: #7cd157;
+}
+
